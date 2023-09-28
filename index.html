@@ -1,0 +1,301 @@
+<!-- HTML boilerplate -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Site Title -->
+  <title>WHATGYM - fitness center</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.ico" />
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+
+  <!-- Google Icon -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+  <!-- Navbar Start-->
+  <header>
+    <img src="images/whatgym-logo.png" alt="What gym logo" class="nav-logo" />
+    <input type="checkbox" id="nav-check">
+    <div id="menu">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+      <!-- <span class="material-symbols-outlined" id="menu">
+        menu
+        </span> -->
+    <ul class="nav-items">
+      <li><a href="#clubs" class="nav-a">clubs</a></li>
+      <li><a href="#member benefits" class="nav-a">member benefits</a></li>
+      <li><a href="#classes" class="nav-a">classes</a></li>
+      <li><a href="#training" class="nav-a">training</a></li>
+      <li><a href="#shop" class="nav-a">shop</a></li>
+    </ul>
+  
+    <div id="button-container">
+      <button class="primary-button">
+        join now
+        <span class="round" />
+      </button>
+      <button class="primary-button">
+        find gym
+        <span class="round" />
+      </button>
+    </div>
+
+  </header>
+  <!-- Navbar End-->
+
+  <!-- Animated Cursor Start -->
+  <div id="moving-cursor"></div>
+  <div id="cursor-blur"></div>
+  <!-- Animated Cursor End -->
+
+  <!-- Hero Section Start -->
+  <!-- <main> -->
+  <video autoplay loop muted
+    src="images/bg-video.mp4"
+    id="hero-video"></video>
+  <main>
+    <section id="hero">
+      <div id="hero-main">
+        <div class="heading-bg">
+          <div class="header">
+            <h1 class="heading">
+              <span class="heading-main">Push. Sweat. Evolve.</span>
+              <span class="heading-sub">welcome to workout fitness!</span>
+            </h1>
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum,
+            assumenda nihil quibusdam id consequatur provident aperiam molestiae
+            eveniet maiores similique.
+          </p>
+
+          <div id="arrow">
+            <span class="material-symbols-outlined">
+              arrow_downward
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Us Section Start -->
+    <section id="main-aboutus">
+      <!-- Text Marquee Start -->
+      <div id="scroller">
+        <div class="scroller-text">
+          <h4>clubs</h4>
+          <h4>member benefits</h4>
+          <h4>classes</h4>
+          <h4>training</h4>
+          <h4>shop</h4>
+        </div>
+        <div class="scroller-text">
+          <h4>clubs</h4>
+          <h4>member benefits</h4>
+          <h4>classes</h4>
+          <h4>training</h4>
+          <h4>shop</h4>
+        </div>
+      </div>
+      <!-- Text Marquee End -->
+
+      <div id="about-us">
+        <img src="images/about-left.png" alt="" />
+        <div id="aboutus-text">
+          <h3>about us</h3>
+          <p>
+            Our gym offers a modern facility with a 46-bay, Toptracer Range-powered driving range, fitness zones,
+            practice areas, a cafe, and a fitness store. Plus, outdoor 18-hole obstacle courses for added fun.
+          </p>
+        </div>
+        <img src="images/about-right.png" alt="" />
+      </div>
+
+    </section>
+    <!-- About Us Section End -->
+
+    <!-- Card Section Start -->
+    <div id="card-container">
+      <div class="card" id="card-first">
+        <div class="overlay">
+          <h4 class="overlay-heading">training</h4>
+          <p class="overlay-para">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+            quam molestias magni cupiditate architecto et enim quas facere
+            ipsum tempora?
+          </p>
+        </div>
+      </div>
+      <div class="card" id="card-second">
+        <div class="overlay">
+          <h4 class="overlay-heading">clubs</h4>
+          <p class="overlay-para">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+            quam molestias magni cupiditate architecto et enim quas facere
+            ipsum tempora?
+          </p>
+        </div>
+      </div>
+      <div class="card" id="card-third">
+        <div class="overlay">
+          <h4 class="overlay-heading">shops</h4>
+          <p class="overlay-para">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+            quam molestias magni cupiditate architecto et enim quas facere
+            ipsum tempora?
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Card Section End -->
+
+    <!-- Banner Start -->
+    <div id="banner">
+      <img src="../images/dottedsqr-left.png" alt="" class="banner-img" />
+      <h4 class="banner-heading">
+        SIGN UP FOR What gym NEWS AND SPECIAL OFFERS STRAIGHT TO YOUR INBOX
+      </h4>
+      <img src="../images/dottedsqr-right.png" alt="" class="banner-img" />
+    </div>
+    </div>
+    <!-- Banner End -->
+
+    <!-- Carousel Start -->
+    <div class="carousel-section">
+      <div class="carousel">
+        <ul class="slides">
+          <input type="radio" name="radio-buttons" id="img-1" checked />
+          <li class="slide-container">
+            <div class="slide-image">
+              <img src="images/gym-first.png">
+            </div>
+          </li>
+          <input type="radio" name="radio-buttons" id="img-2" />
+          <li class="slide-container">
+            <div class="slide-image">
+              <img src="images/gym-third.png">
+            </div>
+          </li>
+          <input type="radio" name="radio-buttons" id="img-3" />
+          <li class="slide-container">
+            <div class="slide-image">
+              <img src="images/gym2-second.png">
+            </div>
+          </li>
+          <div class="carousel-dots">
+            <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+            <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+            <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+          </div>
+        </ul>
+      </div>
+      <div class="carousel-text">
+        <h3>FOOD AND DRINK</h3>
+        <p>At WhatGym, whether you're gearing up for a workout, wrapping up your training session, or simply looking to
+          refuel after exercise, we offer a diverse selection of nourishing options.</p>
+        <p>Our commitment is to ensure that everyone can find something to their preferences.</p>
+
+        <div id="btn-container">
+          <button class="carousel-button">
+            join now
+            <span class="round" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- Pitch Section Start -->
+    <div id="pitch">
+      <p>
+        Outstanding hours filled with relaxation and enjoyable activities await you. The staff
+        is incredibly accommodating, friendly, and always ready to assist. If you haven't been yet, it's definitely
+        worth a visit.
+      </p>
+      <img id="colon-left" src="images/comma-left.png" alt="" />
+      <img id="colon-right" src="images/comma-right.png" alt="" />
+    </div>
+    <div id="call-to-action">
+      <h1 class="cta-heading">WHAT ARE YOU WAITING FOR?</h1>
+      <div class="cta-card">
+        <h2>TRAINING</h2>
+        <img src="images/gym-first.png" alt="" />
+      </div>
+      <div class="cta-card">
+        <h2>MEMBER BENEFITS</h2>
+        <img src="images/gym2-second.png" alt="" />
+      </div>
+      <div class="cta-card">
+        <h2>CLUBS</h2>
+        <img src="images/gym-third.png" alt="" />
+      </div>
+    </div>
+    <!-- Pitch Section End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <img src="images/dottedsqr-left.png" alt="" />
+      <div id="f1">
+        <img src="images/whatgym-logo.png" alt="" />
+      </div>
+      <div id="f2">
+        <h3>Training</h3>
+        <h3>Member benefits</h3>
+        <h3>Adventure</h3>
+      </div>
+      <div id="f3">
+        <h3>Shop</h3>
+        <h3>Leagues</h3>
+        <h3>Contact us</h3>
+      </div>
+      <div id="f4">
+        <h4>
+          Created by: <br />
+          Noureen Kanwal <br />
+          Email <br />
+          noureendeveloper@gmail.com <br />
+          TEL: +92 302 0025372 <br />
+          Karachi, Pakistan. <br />
+        </h4>
+      </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+  </main>
+
+
+  <!-- Link GSAP for moving animation -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+    integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Link GSAP Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+    integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Link JavaScript -->
+  <script src="index.js"></script>
+</body>
+
+</html>
